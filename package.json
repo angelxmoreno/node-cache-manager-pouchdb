@@ -1,0 +1,19 @@
+{
+  "name": "node-cache-manager-pouchdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelxmoreno/node-cache-manager-pouchdb.git"
+  },
+  "author": "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelxmoreno/node-cache-manager-pouchdb/issues"
+  },
+  "homepage": "https://github.com/angelxmoreno/node-cache-manager-pouchdb#readme"
+}
