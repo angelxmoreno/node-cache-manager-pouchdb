@@ -1,19 +1,41 @@
 {
-  "name": "node-cache-manager-pouchdb",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cache-manager-pouchdb",
+  "version": "0.1.0",
+  "description": "Node cache store for PouchDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": {
+    "name": "Angel S. Moreno",
+    "email": "angelxmoreno@gmail.com",
+    "url": "https://angelxmoreno.github.io/"
+  },
+  "contributors": [
+    {
+      "name": "Angel S. Moreno",
+      "email": "angelxmoreno@gmail.com",
+      "url": "https://angelxmoreno.github.io/"
+    }
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/angelxmoreno/node-cache-manager-pouchdb.git"
   },
-  "author": "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/angelxmoreno/node-cache-manager-pouchdb/issues"
   },
-  "homepage": "https://github.com/angelxmoreno/node-cache-manager-pouchdb#readme"
+  "homepage": "https://github.com/angelxmoreno/node-cache-manager-pouchdb#readme",
+  "dependencies": {
+    "pouchdb": "^5.3.1",
+    "pouchdb-upsert": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "peerDependencies": {
+    "cache-manager": "^2.0.0"
+  }
 }
