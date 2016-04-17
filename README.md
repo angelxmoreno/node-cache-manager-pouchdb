@@ -3,6 +3,17 @@ Node Cache Manager store for PouchDB
 The PouchDB store for the Node Cache Manager Module found on [Github](https://github.com/BryanDonovan/node-cache-manager)
 and [NPM](https://www.npmjs.com/package/cache-manager).
 
+Status
+------------
+Currently the code is in *`beta`*. I am using it in an application that was origininally going to use the redis store. 
+Incomplete:
+
+1. Tests
+2. Code clean up
+3. examples on using remote server
+4. examples on replication
+5. examples of syncing
+
 Installation
 ------------
 
@@ -67,6 +78,8 @@ and [Usage Examples](https://www.npmjs.com/package/cache-manager#usage-examples)
 sections of the [Node Cache Manager module](https://www.npmjs.com/package/cache-manager)
 
 ## Tests
+Tests need to be written.
+
 ```js
 npm test
 ```
